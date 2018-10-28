@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Clear_Demo">
+              <span class="suite-name border-failed">Clear Demo</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Clear_Demo">
+                    <span>C:\Users\alex_raj\workspace\Cleartest\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Clear_Demo">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Clear_Demo">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Clear_Demo">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Clear_Demo">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Clear_Demo">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Clear_Demo">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 5 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Clear_Demo" class="hide-methods failed suite-Clear_Demo"> (hide)</a> <!-- hide-methods failed suite-Clear_Demo -->
+                      <a href="#" panel-name="suite-Clear_Demo" class="show-methods failed suite-Clear_Demo"> (show)</a> <!-- show-methods failed suite-Clear_Demo -->
+                    </span>
+                    <div class="method-list-content failed suite-Clear_Demo">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Clear_Demo" title="com.Demo_TradesandGiveups" hash-for-method="ccpTradeAutoMatch">ccpTradeAutoMatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Clear_Demo" title="com.Demo_Claims" hash-for-method="clientAllocationAutoAllocation">clientAllocationAutoAllocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Clear_Demo" title="com.Demo_TradesandGiveups" hash-for-method="openorcloseAction">openorcloseAction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Clear_Demo" title="com.Demo_TradesandGiveups" hash-for-method="tradeAmand">tradeAmand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Clear_Demo" title="com.Demo_TradesandGiveups" hash-for-method="tradeSplitaction">tradeSplitaction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Clear_Demo -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Clear_Demo" class="hide-methods passed suite-Clear_Demo"> (hide)</a> <!-- hide-methods passed suite-Clear_Demo -->
+                      <a href="#" panel-name="suite-Clear_Demo" class="show-methods passed suite-Clear_Demo"> (show)</a> <!-- show-methods passed suite-Clear_Demo -->
+                    </span>
+                    <div class="method-list-content passed suite-Clear_Demo">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Clear_Demo" title="com.Demo_TradesandGiveups" hash-for-method="acceptAction">acceptAction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Clear_Demo" title="com.Demo_TradesandGiveups" hash-for-method="addNewTab">addNewTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Clear_Demo" title="com.Demo_Claims" hash-for-method="affirmAction">affirmAction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Clear_Demo" title="com.Demo_Claims" hash-for-method="allocateAction">allocateAction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Clear_Demo" title="com.Demo_TradesandGiveups" hash-for-method="applogin">applogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Clear_Demo" title="com.Demo_Claims" hash-for-method="applogin">applogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Clear_Demo" title="com.Demo_TradesandGiveups" hash-for-method="cancelAction">cancelAction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Clear_Demo" title="com.Demo_TradesandGiveups" hash-for-method="changePasswordaction">changePasswordaction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Clear_Demo" title="com.Demo_TradesandGiveups" hash-for-method="deleteExistingTab">deleteExistingTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Clear_Demo" title="com.Demo_TradesandGiveups" hash-for-method="giveupAction">giveupAction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Clear_Demo" title="com.Demo_Claims" hash-for-method="rejectAction">rejectAction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Clear_Demo" title="com.Demo_TradesandGiveups" hash-for-method="uploadCCPTrade">uploadCCPTrade</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Clear_Demo" title="com.Demo_Claims" hash-for-method="uploadClaimsTrade">uploadClaimsTrade</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Clear_Demo -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Clear_Demo" class="panel Clear_Demo">
+          <div class="suite-Clear_Demo-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.Demo_TradesandGiveups</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ccpTradeAutoMatch">
+                  </a> <!-- ccpTradeAutoMatch -->
+                  <span class="method-name">ccpTradeAutoMatch</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;div class=&quot;ux-desktop-shortcut x-item-selected&quot; id=&quot;Trades &amp;amp; Giveups-shortcut&quot; role=&quot;option&quot; tabindex=&quot;-1&quot; data-recordindex=&quot;1&quot; data-recordid=&quot;318&quot; data-boundview=&quot;dataview-1802&quot; aria-selected=&quot;true&quot;&gt;...&lt;/div&gt; is not clickable at point (48, 180). Other element would receive the click: &lt;div class=&quot;x-grid-view x-grid-with-col-lines x-grid-with-row-lines x-fit-item x-grid-view-default x-unselectable&quot; role=&quot;rowgroup&quot; id=&quot;tableview-3675&quot; tabindex=&quot;0&quot; data-componentid=&quot;tableview-3675&quot; style=&quot;overflow: auto; margin: 0px; width: 1362px; height: 175px;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;SYSVINEL036&apos;, ip: &apos;172.30.30.36&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\alex_raj\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1f1a17cb90d87f71a15a291d25c8830c
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.Mainclass.openTradesandGiveups(Mainclass.java:272)
+	at com.Demo_TradesandGiveups.ccpTradeAutoMatch(Demo_TradesandGiveups.java:737)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Performing Auto matching in CCP Trade panel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openorcloseAction">
+                  </a> <!-- openorcloseAction -->
+                  <span class="method-name">openorcloseAction</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;div class=&quot;ux-desktop-shortcut x-item-selected&quot; id=&quot;Trades &amp;amp; Giveups-shortcut&quot; role=&quot;option&quot; tabindex=&quot;-1&quot; data-recordindex=&quot;1&quot; data-recordid=&quot;318&quot; data-boundview=&quot;dataview-1802&quot; aria-selected=&quot;true&quot;&gt;...&lt;/div&gt; is not clickable at point (48, 180). Other element would receive the click: &lt;div class=&quot;x-grid-view x-grid-with-col-lines x-grid-with-row-lines x-fit-item x-grid-view-default x-unselectable&quot; role=&quot;rowgroup&quot; id=&quot;tableview-3675&quot; tabindex=&quot;0&quot; data-componentid=&quot;tableview-3675&quot; style=&quot;overflow: auto; margin: 0px; width: 1362px; height: 175px;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;SYSVINEL036&apos;, ip: &apos;172.30.30.36&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\alex_raj\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1f1a17cb90d87f71a15a291d25c8830c
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.Mainclass.openTradesandGiveups(Mainclass.java:272)
+	at com.Demo_TradesandGiveups.openorcloseAction(Demo_TradesandGiveups.java:630)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Performing Open or Close action in CCP Trades panel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tradeAmand">
+                  </a> <!-- tradeAmand -->
+                  <span class="method-name">tradeAmand</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;tradePanel-body&apos;]/div[1]/div[2]/div[1]/div[3]/table[1]//td[3]/div&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;SYSVINEL036&apos;, ip: &apos;172.30.30.36&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\alex_raj\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1f1a17cb90d87f71a15a291d25c8830c
+*** Element info: {Using=xpath, value=//div[@id=&apos;tradePanel-body&apos;]/div[1]/div[2]/div[1]/div[3]/table[1]//td[3]/div}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at com.Mainclass.xpath(Mainclass.java:135)
+	at com.Demo_TradesandGiveups.tradeAmand(Demo_TradesandGiveups.java:506)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Performing Trade Amend action in CCP Trades panel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tradeSplitaction">
+                  </a> <!-- tradeSplitaction -->
+                  <span class="method-name">tradeSplitaction</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;div class=&quot;ux-desktop-shortcut x-item-selected&quot; id=&quot;Trades &amp;amp; Giveups-shortcut&quot; role=&quot;option&quot; tabindex=&quot;-1&quot; data-recordindex=&quot;1&quot; data-recordid=&quot;318&quot; data-boundview=&quot;dataview-1802&quot; aria-selected=&quot;true&quot;&gt;...&lt;/div&gt; is not clickable at point (48, 180). Other element would receive the click: &lt;div class=&quot;x-grid-view x-grid-with-col-lines x-grid-with-row-lines x-fit-item x-grid-view-default x-unselectable&quot; role=&quot;rowgroup&quot; id=&quot;tableview-3675&quot; tabindex=&quot;0&quot; data-componentid=&quot;tableview-3675&quot; style=&quot;overflow: auto; margin: 0px; width: 1362px; height: 175px;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;SYSVINEL036&apos;, ip: &apos;172.30.30.36&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\alex_raj\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1f1a17cb90d87f71a15a291d25c8830c
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.Mainclass.openTradesandGiveups(Mainclass.java:272)
+	at com.Demo_TradesandGiveups.tradeSplitaction(Demo_TradesandGiveups.java:564)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Performing Trade Split action in CCP Trades panel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Clear_Demo-class-failed -->
+          <div class="suite-Clear_Demo-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.Demo_Claims</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clientAllocationAutoAllocation">
+                  </a> <!-- clientAllocationAutoAllocation -->
+                  <span class="method-name">clientAllocationAutoAllocation</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;div id=&quot;tool-2845-toolEl&quot; data-ref=&quot;toolEl&quot; class=&quot;x-tool-img x-tool-close&quot; role=&quot;presentation&quot;&gt;&lt;/div&gt; is not clickable at point (1350, 18). Other element would receive the click: &lt;div role=&quot;presentation&quot; class=&quot;x-mask x-border-box&quot; style=&quot;height: 618px; width: 1366px; z-index: 19006; right: auto; left: 0px; top: 0px;&quot; id=&quot;ext-element-14&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;SYSVINEL036&apos;, ip: &apos;172.30.30.36&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\alex_raj\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1f1a17cb90d87f71a15a291d25c8830c
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.Mainclass.closeClaims(Mainclass.java:326)
+	at com.Demo_Claims.clientAllocationAutoAllocation(Demo_Claims.java:364)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Performing Auto matching action in Client Allocation panel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Clear_Demo-class-failed -->
+          <div class="suite-Clear_Demo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Demo_TradesandGiveups</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="acceptAction">
+                  </a> <!-- acceptAction -->
+                  <span class="method-name">acceptAction</span>
+                  <em>
+(Performing Accept action in CCP Trades panel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewTab">
+                  </a> <!-- addNewTab -->
+                  <span class="method-name">addNewTab</span>
+                  <em>
+(Adding new tab action)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="applogin">
+                  </a> <!-- applogin -->
+                  <span class="method-name">applogin</span>
+                  <em>
+(Performing login action)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelAction">
+                  </a> <!-- cancelAction -->
+                  <span class="method-name">cancelAction</span>
+                  <em>
+(Performing Cancel Action in CCP Trades panel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePasswordaction">
+                  </a> <!-- changePasswordaction -->
+                  <span class="method-name">changePasswordaction</span>
+                  <em>
+(Performing Change Password action)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteExistingTab">
+                  </a> <!-- deleteExistingTab -->
+                  <span class="method-name">deleteExistingTab</span>
+                  <em>
+(Deleting existing tab action)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="giveupAction">
+                  </a> <!-- giveupAction -->
+                  <span class="method-name">giveupAction</span>
+                  <em>
+(Performing Giveup Action in CCP Trades panel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadCCPTrade">
+                  </a> <!-- uploadCCPTrade -->
+                  <span class="method-name">uploadCCPTrade</span>
+                  <em>
+(Performing Trade upload action in CCP Trades panel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Clear_Demo-class-passed -->
+          <div class="suite-Clear_Demo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Demo_Claims</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="affirmAction">
+                  </a> <!-- affirmAction -->
+                  <span class="method-name">affirmAction</span>
+                  <em>
+(Performing Affirm action in Claims panel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allocateAction">
+                  </a> <!-- allocateAction -->
+                  <span class="method-name">allocateAction</span>
+                  <em>
+(Performing Allocate action in Claims panel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="applogin">
+                  </a> <!-- applogin -->
+                  <span class="method-name">applogin</span>
+                  <em>
+(Performing login action)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rejectAction">
+                  </a> <!-- rejectAction -->
+                  <span class="method-name">rejectAction</span>
+                  <em>
+(Performing Reject action in Claims panel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadClaimsTrade">
+                  </a> <!-- uploadClaimsTrade -->
+                  <span class="method-name">uploadClaimsTrade</span>
+                  <em>
+(Performing trade upload action in Claims panel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Clear_Demo-class-passed -->
+        </div> <!-- panel Clear_Demo -->
+        <div panel-name="test-xml-Clear_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\alex_raj\workspace\Cleartest\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Clear Demo&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;report.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Clear Demo env Automation test scripts&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Demo_TradesandGiveups&quot;/&gt;
+      &lt;class name=&quot;com.Demo_Claims&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Clear Demo env Automation test scripts --&gt;
+&lt;/suite&gt; &lt;!-- Clear Demo --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Clear_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Clear Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Clear Demo env Automation test scripts (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Clear_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Clear Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Clear_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Clear Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Clear_Demo');
+function tableData_Clear_Demo() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'allocateAction')
+data.setCell(0, 2, 'com.Demo_Claims')
+data.setCell(0, 3, 51043);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'giveupAction')
+data.setCell(1, 2, 'com.Demo_TradesandGiveups')
+data.setCell(1, 3, 43458);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tradeAmand')
+data.setCell(2, 2, 'com.Demo_TradesandGiveups')
+data.setCell(2, 3, 36859);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'uploadCCPTrade')
+data.setCell(3, 2, 'com.Demo_TradesandGiveups')
+data.setCell(3, 3, 30453);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'applogin')
+data.setCell(4, 2, 'com.Demo_TradesandGiveups')
+data.setCell(4, 3, 24408);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'uploadClaimsTrade')
+data.setCell(5, 2, 'com.Demo_Claims')
+data.setCell(5, 3, 23716);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'acceptAction')
+data.setCell(6, 2, 'com.Demo_TradesandGiveups')
+data.setCell(6, 3, 21518);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'affirmAction')
+data.setCell(7, 2, 'com.Demo_Claims')
+data.setCell(7, 3, 18903);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'changePasswordaction')
+data.setCell(8, 2, 'com.Demo_TradesandGiveups')
+data.setCell(8, 3, 17994);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'clientAllocationAutoAllocation')
+data.setCell(9, 2, 'com.Demo_Claims')
+data.setCell(9, 3, 17600);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'applogin')
+data.setCell(10, 2, 'com.Demo_Claims')
+data.setCell(10, 3, 17227);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'rejectAction')
+data.setCell(11, 2, 'com.Demo_Claims')
+data.setCell(11, 3, 17204);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'addNewTab')
+data.setCell(12, 2, 'com.Demo_TradesandGiveups')
+data.setCell(12, 3, 16994);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'cancelAction')
+data.setCell(13, 2, 'com.Demo_TradesandGiveups')
+data.setCell(13, 3, 13840);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'deleteExistingTab')
+data.setCell(14, 2, 'com.Demo_TradesandGiveups')
+data.setCell(14, 3, 11523);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'tradeSplitaction')
+data.setCell(15, 2, 'com.Demo_TradesandGiveups')
+data.setCell(15, 3, 138);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'ccpTradeAutoMatch')
+data.setCell(16, 2, 'com.Demo_TradesandGiveups')
+data.setCell(16, 3, 128);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'openorcloseAction')
+data.setCell(17, 2, 'com.Demo_TradesandGiveups')
+data.setCell(17, 3, 76);
+window.suiteTableData['Clear_Demo']= { tableData: data, tableDiv: 'times-div-Clear_Demo'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Clear_Demo">
+              </div> <!-- times-div-Clear_Demo -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Clear_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Clear Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Clear_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Clear_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Demo_Claims</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">browser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Demo_TradesandGiveups</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">browser</span>
+                <span class="method-start">787 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">applogin</span>
+                <span class="method-start">4831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=applogin status=SUCCESS method=Demo_TradesandGiveups.applogin()[pri:1, instance:com...)</span>
+                <span class="method-start">29240 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">changePasswordaction</span>
+                <span class="method-start">29241 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=changePasswordaction status=SUCCESS method=Demo_TradesandGiveups.changePasswordacti...)</span>
+                <span class="method-start">47235 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addNewTab</span>
+                <span class="method-start">47236 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=addNewTab status=SUCCESS method=Demo_TradesandGiveups.addNewTab()[pri:3, instance:c...)</span>
+                <span class="method-start">64232 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">deleteExistingTab</span>
+                <span class="method-start">64233 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=deleteExistingTab status=SUCCESS method=Demo_TradesandGiveups.deleteExistingTab()[p...)</span>
+                <span class="method-start">75758 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">uploadCCPTrade</span>
+                <span class="method-start">75759 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=uploadCCPTrade status=SUCCESS method=Demo_TradesandGiveups.uploadCCPTrade()[pri:5, ...)</span>
+                <span class="method-start">106214 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">acceptAction</span>
+                <span class="method-start">106214 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=acceptAction status=SUCCESS method=Demo_TradesandGiveups.acceptAction()[pri:6, inst...)</span>
+                <span class="method-start">127734 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">giveupAction</span>
+                <span class="method-start">127734 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=giveupAction status=SUCCESS method=Demo_TradesandGiveups.giveupAction()[pri:7, inst...)</span>
+                <span class="method-start">171194 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">cancelAction</span>
+                <span class="method-start">171195 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=cancelAction status=SUCCESS method=Demo_TradesandGiveups.cancelAction()[pri:8, inst...)</span>
+                <span class="method-start">185037 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tradeAmand</span>
+                <span class="method-start">185038 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tradeAmand status=FAILURE method=Demo_TradesandGiveups.tradeAmand()[pri:9, instance...)</span>
+                <span class="method-start">221900 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tradeSplitaction</span>
+                <span class="method-start">222310 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tradeSplitaction status=FAILURE method=Demo_TradesandGiveups.tradeSplitaction()[pri...)</span>
+                <span class="method-start">222450 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">openorcloseAction</span>
+                <span class="method-start">222735 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=openorcloseAction status=FAILURE method=Demo_TradesandGiveups.openorcloseAction()[p...)</span>
+                <span class="method-start">222812 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ccpTradeAutoMatch</span>
+                <span class="method-start">223093 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ccpTradeAutoMatch status=FAILURE method=Demo_TradesandGiveups.ccpTradeAutoMatch()[p...)</span>
+                <span class="method-start">223222 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Demo_Claims</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">applogin</span>
+                <span class="method-start">223504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=applogin status=SUCCESS method=Demo_Claims.applogin()[pri:1, instance:com.Demo_Clai...)</span>
+                <span class="method-start">240732 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">uploadClaimsTrade</span>
+                <span class="method-start">240733 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=uploadClaimsTrade status=SUCCESS method=Demo_Claims.uploadClaimsTrade()[pri:2, inst...)</span>
+                <span class="method-start">264450 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">affirmAction</span>
+                <span class="method-start">264451 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=affirmAction status=SUCCESS method=Demo_Claims.affirmAction()[pri:3, instance:com.D...)</span>
+                <span class="method-start">283355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">rejectAction</span>
+                <span class="method-start">283356 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=rejectAction status=SUCCESS method=Demo_Claims.rejectAction()[pri:4, instance:com.D...)</span>
+                <span class="method-start">300561 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">allocateAction</span>
+                <span class="method-start">300562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=allocateAction status=SUCCESS method=Demo_Claims.allocateAction()[pri:5, instance:c...)</span>
+                <span class="method-start">351606 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clientAllocationAutoAllocation</span>
+                <span class="method-start">351607 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=clientAllocationAutoAllocation status=FAILURE method=Demo_Claims.clientAllocationAu...)</span>
+                <span class="method-start">369208 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.Demo_Claims">
+        <methods>
+          <include name="rejectAction"/>
+          <include name="tearDown"/>
+          <include name="clientAllocationAutoAllocation"/>
+          <include name="affirmAction"/>
+          <include name="allocateAction"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- com.Demo_Claims -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

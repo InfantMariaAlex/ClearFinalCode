@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Clear Demo]">
+  <listeners>
+    <listener class-name="report.ExtentReporterNG"/>
+  </listeners>
+  <test name="Clear Demo env Automation test scripts(failed)">
+    <classes>
+      <class name="com.Demo_TradesandGiveups">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tradeSplitaction"/>
+          <include name="browser"/>
+          <include name="tradeAmand"/>
+          <include name="ccpTradeAutoMatch"/>
+          <include name="openorcloseAction"/>
+        </methods>
+      </class> <!-- com.Demo_TradesandGiveups -->
+      <class name="com.Demo_Claims">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clientAllocationAutoAllocation"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- com.Demo_Claims -->
+    </classes>
+  </test> <!-- Clear Demo env Automation test scripts(failed) -->
+</suite> <!-- Failed suite [Clear Demo] -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Clear Demo">
+	<listeners>
+		<listener class-name="report.ExtentReporterNG" />
+	</listeners>
+	<test name="Clear Demo env Automation test scripts">
+		<classes>
+			<class name="com.Demo_TradesandGiveups"></class>
+			<class name="com.Demo_Claims"></class>
+		</classes>
+	</test>
+</suite>
